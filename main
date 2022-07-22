@@ -16,9 +16,11 @@ def update():
             if hit_info.entity in list:
                 destroy(hit_info.entity)
 app = Ursina()
+# brush scale and color
 scale = 0.1
 R,G,B = 0,0,0
 
+# this allow the player to add lines with the brush 
 list = []
 class Voxel(Button):
     def __init__(self, position=(0,0,0)):
@@ -57,7 +59,7 @@ def Clear():
     else:
         erase = False
         eraser_button.color = color.blue
-
+# button to activate the erase
 erase = False
 eraser_button = Button(model = 'quad',scale = 1,collider = 'box',position = (6,-2),parent = scene,color = color.blue)
 eraser_button.on_click = Clear
