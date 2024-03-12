@@ -1,4 +1,4 @@
-# drawing
+# VoxelArt
 
 This Python drawing application uses the Ursina game engine to allow users to draw lines and shapes, adjust brush size and color, and erase previously drawn elements. The canvas is a grid of voxels, providing a basic yet functional tool.
 
