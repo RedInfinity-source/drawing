@@ -1,43 +1,24 @@
-# 2D Voxel Art Creator with Ursina
+# drawing
 
-This repository contains a simple 2D voxel art creator built with the Ursina game engine. You can use this application to draw and create 2D voxel art with customizable brush size and color.
+This Python drawing application uses the Ursina game engine to allow users to draw lines and shapes, adjust brush size and color, and erase previously drawn elements. The canvas is a grid of voxels, providing a basic yet functional tool.
 
-## About Ursina
+## Table of Contents
 
-[Ursina](https://www.ursinaengine.org/) is a beginner-friendly game development framework for Python. It allows you to quickly create 2D and 3D games and interactive applications.
+- [About](#about)
+- [Features](#features)
+- [Imports](#Imports)
+- [Rating: 7/10](#Rating)
 
-## Getting Started
+# About
 
-1. Clone this repository to your local machine:
+This Python drawing application uses the Ursina game engine to allow users to draw lines and shapes on the screen. Users can adjust brush size and color using sliders and use an eraser function to remove previously drawn elements. The drawing canvas is a grid of colored squares called voxels. The application offers a basic yet functional drawing tool with customizable brush settings and an intuitive user interface.
 
-git clone https://github.com/Statute8234/VoxelArtCreator.git
+# Features
 
-    Navigate to the project directory:
+The Python drawing application using the Ursina game engine offers several key features for artistic expression. It integrates the Ursina game engine, providing a framework for creating interactive 2D and 3D applications. Users can draw lines and shapes directly on the screen, with the canvas serving as a space for creative expression. Brush customization allows users to control stroke thickness and color, while an eraser feature allows users to selectively remove previously drawn elements. The drawing canvas is represented as a grid of colored squares called "voxels," allowing for pixel-level precision in drawing. The application's intuitive user interface allows easy access to brush settings, color options, and the eraser tool. Overall, this drawing tool provides a basic yet functional platform for artistic expression.
 
-cd VoxelArtCreator
+# Imports
 
-    Run the application:
+ursina 
 
-python main.py
-
-Features
-
-    Brush Size Control: Adjust the brush size using the provided slider.
-    Customizable Color: Choose your desired color using RGB sliders.
-    Eraser: Toggle the eraser mode to remove voxels.
-    Draw Voxel Art: Left-click to draw voxels on the canvas.
-
-Usage
-
-    To draw, click and hold the left mouse button on the canvas.
-    To erase, click the "Eraser" button and then click on voxels to remove them.
-    Use the RGB sliders to customize your brush color.
-    Adjust the brush size with the "Scale" slider.
-
-Screenshots
-
-Screenshot 1
-Screenshot 2
-Contributing
-
-Contributions are welcome! If you'd like to add new features or fix bugs, please fork the repository and create a pull request. If you find any issues or have suggestions, please open an issue.
+# Rating
